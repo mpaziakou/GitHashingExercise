@@ -1,1 +1,1 @@
-This project demonstrates hashing using a shell script (bash).
+This project demonstrates hashing using bash.
