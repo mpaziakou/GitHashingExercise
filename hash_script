@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Use: $0 <4-digit-int>"
+    exit 1
+fi
+
+echo -n "$1" | sha256sum | awk '{print $1}'
